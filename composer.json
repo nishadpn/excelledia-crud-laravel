@@ -1,0 +1,27 @@
+{
+    "name": "excelledia/crud-laravel",
+    "description": "Package of create crud functionality",
+    "license": "MIT",
+    "type":"package",
+    "authors": [
+        {
+            "name": "Nishad PN",
+            "email": "nishad.pn550@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3|^8.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "Excelledia\\Crud\\":"src/"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Excelledia\\Crud\\CrudServiceProvider"
+            ]
+        }
+    }
+}
